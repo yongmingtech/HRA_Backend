@@ -1,0 +1,7 @@
+*** Settings ***
+Resource          Login.robot
+
+*** Test Cases ***
+Check Page
+    Go To Portal
+    [Teardown]    Close Browser
